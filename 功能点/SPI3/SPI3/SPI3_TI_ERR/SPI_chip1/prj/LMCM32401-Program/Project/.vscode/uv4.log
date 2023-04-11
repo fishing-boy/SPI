@@ -1,0 +1,17 @@
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'E:\keil5\ARM\ARMCC\Bin'
+Build target 'Template'
+compiling LMCM32F401-main.c...
+..\User\LMCM32F401-main.c(53): warning:  #177-D: variable "TIM_BDTRInitStruct"  was declared but never referenced
+  	TIM_BDTRInitTypeDef TIM_BDTRInitStruct;
+..\User\LMCM32F401-main.c(95): warning:  #550-D: variable "NVIC_InitStructure"  was set but never used
+  	NVIC_InitTypeDef NVIC_InitStructure;
+..\User\LMCM32F401-main.c(141): warning:  #177-D: variable "GPIO_InitStructure"  was declared but never referenced
+    GPIO_InitTypeDef GPIO_InitStructure;
+..\User\LMCM32F401-main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=3388 RO-data=436 RW-data=4 ZI-data=4100  
+FromELF: creating hex file...
+After Build - User command #1: fromelf -cvf .\Objects\Template.axf --vhx --32x1 -o main.vhex
+After Build - User command #2: E:\Keil5\ARM\ARMCC\bin\fromelf.exe --text -c -o e:\Èí¼þ\SPI\SPI_TI_ERR\SPI_chip1\prj\LMCM32401-Program\Project\Objects\Template.asm e:\Èí¼þ\SPI\SPI_TI_ERR\SPI_chip1\prj\LMCM32401-Program\Project\Objects\Template.axf
+".\Objects\Template.axf" - 0 Error(s), 3 Warning(s).
+Build Time Elapsed:  00:00:01

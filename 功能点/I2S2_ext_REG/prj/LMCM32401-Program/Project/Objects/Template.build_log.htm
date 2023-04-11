@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 111 111, 111, LIC=0VR9U-SYEDP-IL2CB-2D0FA-I6FJZ-KVQW6
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.24.1
+Toolchain Path:  E:\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+e:\Èí¼þ\I2S\I2S2_ext_REG\prj\LMCM32401-Program\Project\LMCM32F401.uvprojx
+Project File Date:  01/11/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'E:\keil5\ARM\ARMCC\Bin'
+Build target 'Template'
+compiling LMCM32F401-main.c...
+..\User\LMCM32F401-main.c(97): error:  #20: identifier "j" is undefined
+  		*((int*)I2S2_ext_REG_ADDRESS[i][j]) = I2S2_ext_REG_RESET[i][j];
+..\User\LMCM32F401-main.c(103): error:  #20: identifier "i" is undefined
+  printf("SPI%d write 0x%08x test pass\r\n",i+1,data);
+..\User\LMCM32F401-main.c(107): error:  #20: identifier "i" is undefined
+  printf("SPI%d write 0x%08x test fail,error number: %d\r\n",i+1,data,check);
+..\User\LMCM32F401-main.c(120): error:  #18: expected a ")"
+  	
+CC->APB1ENR &= ~RCC_APB1ENR_SPI2EN;
+..\User\LMCM32F401-main.c(120): error:  #79: expected a type specifier
+  	
+CC->APB1ENR &= ~RCC_APB1ENR_SPI2EN;
+..\User\LMCM32F401-main.c(120): error:  #260-D: explicit type is missing ("int" assumed)
+  	
+CC->APB1ENR &= ~RCC_APB1ENR_SPI2EN;
+..\User\LMCM32F401-main.c(120): error:  #101: "RCC_TypeDef" has already been declared in the current scope
+  	
+CC->APB1ENR &= ~RCC_APB1ENR_SPI2EN;
+..\User\LMCM32F401-main.c(120): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+  	
+CC->APB1ENR &= ~RCC_APB1ENR_SPI2EN;
+..\User\LMCM32F401-main.c(120): error:  #130: expected a "{"
+  	
+CC->APB1ENR &= ~RCC_APB1ENR_SPI2EN;
+..\User\LMCM32F401-main.c: 0 warnings, 9 errors
+".\Objects\Template.axf" - 9 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.15.0.pack
+                Keil.STM32F4xx_DFP.2.15.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Template
+  E:\keil5\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

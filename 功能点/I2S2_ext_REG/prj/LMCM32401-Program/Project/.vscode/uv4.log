@@ -1,0 +1,31 @@
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'E:\keil5\ARM\ARMCC\Bin'
+Build target 'Template'
+compiling LMCM32F401-main.c...
+..\User\LMCM32F401-main.c(97): error:  #20: identifier "j" is undefined
+  		*((int*)I2S2_ext_REG_ADDRESS[i][j]) = I2S2_ext_REG_RESET[i][j];
+..\User\LMCM32F401-main.c(103): error:  #20: identifier "i" is undefined
+  printf("SPI%d write 0x%08x test pass\r\n",i+1,data);
+..\User\LMCM32F401-main.c(107): error:  #20: identifier "i" is undefined
+  printf("SPI%d write 0x%08x test fail,error number: %d\r\n",i+1,data,check);
+..\User\LMCM32F401-main.c(120): error:  #18: expected a ")"
+  	
+CC->APB1ENR &= ~RCC_APB1ENR_SPI2EN;
+..\User\LMCM32F401-main.c(120): error:  #79: expected a type specifier
+  	
+CC->APB1ENR &= ~RCC_APB1ENR_SPI2EN;
+..\User\LMCM32F401-main.c(120): error:  #260-D: explicit type is missing ("int" assumed)
+  	
+CC->APB1ENR &= ~RCC_APB1ENR_SPI2EN;
+..\User\LMCM32F401-main.c(120): error:  #101: "RCC_TypeDef" has already been declared in the current scope
+  	
+CC->APB1ENR &= ~RCC_APB1ENR_SPI2EN;
+..\User\LMCM32F401-main.c(120): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+  	
+CC->APB1ENR &= ~RCC_APB1ENR_SPI2EN;
+..\User\LMCM32F401-main.c(120): error:  #130: expected a "{"
+  	
+CC->APB1ENR &= ~RCC_APB1ENR_SPI2EN;
+..\User\LMCM32F401-main.c: 0 warnings, 9 errors
+".\Objects\Template.axf" - 9 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:01

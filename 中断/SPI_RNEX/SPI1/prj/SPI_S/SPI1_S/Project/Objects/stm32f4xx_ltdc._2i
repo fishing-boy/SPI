@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\Startup -I ..\Library\inc -I ..\User
+-I.\RTE\_Template
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="524" -DSTM32F401xE -DSTM32F401xx -DUSE_STDPERIPH_DRIVER
+-o .\objects\stm32f4xx_ltdc.o --omf_browse .\objects\stm32f4xx_ltdc.crf --depend .\objects\stm32f4xx_ltdc.d --feedback ".\Objects\Template.fed" "..\Library\src\stm32f4xx_ltdc.c"

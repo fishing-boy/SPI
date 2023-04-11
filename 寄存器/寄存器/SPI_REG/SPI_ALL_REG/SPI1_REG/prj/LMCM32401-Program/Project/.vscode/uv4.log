@@ -1,0 +1,9 @@
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'E:\keil5\ARM\ARMCC\Bin'
+Build target 'Template'
+linking...
+Program Size: Code=2680 RO-data=576 RW-data=652 ZI-data=4100  
+FromELF: creating hex file...
+After Build - User command #1: fromelf -cvf .\Objects\Template.axf --vhx --32x1 -o main.vhex
+After Build - User command #2: E:\Keil5\ARM\ARMCC\bin\fromelf.exe --text -c -o e:\Èí¼þ\SPI\SPI_REG\SPI_ALL_REG\SPI1_REG\prj\LMCM32401-Program\Project\Objects\Template.asm e:\Èí¼þ\SPI\SPI_REG\SPI_ALL_REG\SPI1_REG\prj\LMCM32401-Program\Project\Objects\Template.axf
+".\Objects\Template.axf" - 0 Error(s), 0 Warning(s).
+Build Time Elapsed:  00:00:00
